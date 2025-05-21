@@ -14,6 +14,10 @@ config/name="PacktMultiplayerTutorial"
 config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+AuthenticationCredentials="*res://CSConvert/02/AuthenticationCredentials.tscn"
+
 [display]
 
 window/size/viewport_width=1920
