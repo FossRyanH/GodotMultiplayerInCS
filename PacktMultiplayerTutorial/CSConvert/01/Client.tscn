@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c15fa47fhb5a7"]
+
+[ext_resource type="Script" uid="uid://27u2ltqen0qx" path="res://CSConvert/01/Client.cs" id="1_jvjyu"]
+
+[node name="Client" type="Node"]
+script = ExtResource("1_jvjyu")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 521.0
+offset_top = 58.0
+offset_right = 598.0
+offset_bottom = 84.0
+text = "I'm client"
